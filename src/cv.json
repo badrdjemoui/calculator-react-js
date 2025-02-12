@@ -1,0 +1,81 @@
+{
+    "personalInformation": {
+      "firstName": "Badr",
+      "lastName": "Djemoui",
+      "kids": 2,
+      "email": "badrdjemoui@gmail.com"
+    },
+    "diplomas": [
+      {
+        "year": 2008,
+        "degree": "Engineer in Sciences of Computer Artificial Intelligence (application on distributed systems)",
+        "institution": "Department of Computer Science, Bedji Moukhtar University of Annaba",
+        "honors": "Passable honors"
+      },
+      {
+        "year": 2001,
+        "degree": "BAC in Life and Natural Sciences",
+        "honors": "Passable honors"
+      }
+    ],
+    "experiences": [
+      {
+        "period": "2008-2009",
+        "role": "Professor",
+        "description": "In charge of modules: Operating system, 2D/3D Geometry, Autocad, Probability and Statistics, WEB."
+      },
+      {
+        "period": "2009-2010",
+        "role": "Military Service",
+        "description": "Deployment of recruitment applications WEB created by EasyPHP and Dreamweaver. Computer and network repair. Algorithmic teacher and programming in C and Pascal."
+      }
+    ],
+    "trainings": [
+      {
+        "year": 2007,
+        "description": "Installation and administration of networks at STS Teacher School Dogmanne.N."
+      },
+      {
+        "year": 2019,
+        "description": "Nanodegree in basics of Android by Android Studio at Udacity (Remote)."
+      },
+      {
+        "year": 2019,
+        "description": "Nanodegree in Machine Learning at Udacity (Remote)."
+      }
+    ],
+    "languages": {
+      "arabic": {
+        "oral": "Very good",
+        "written": "Very good",
+        "reading": "Very good"
+      },
+      "french": {
+        "oral": "Good",
+        "written": "Well",
+        "reading": "Very good"
+      },
+      "english": {
+        "oral": "Middle",
+        "written": "Middle",
+        "reading": "Good"
+      }
+    },
+    "otherInformation": {
+      "databaseExperience": [
+        {
+          "period": "2010-2012",
+          "description": "Administration, installation, configuration and handling of civil status database with DBMS SQL Server at Communal People's Assembly Eulma Annaba."
+        },
+        {
+          "period": "2012-present",
+          "description": "Administration, installation, configuration and handling of biometric database with DBMS Oracle at the Wilaya Popular Assembly of Annaba."
+        }
+      ]
+    },
+    "contact": {
+      "github": "https://www.github.com/",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  }
+  

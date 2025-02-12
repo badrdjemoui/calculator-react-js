@@ -1,0 +1,110 @@
+/* توسيط جميع العناصر وجعلها أكبر */
+.App {
+  text-align: center;
+  background-color: #f0f4f8; /* لون خلفية فاتح */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+}
+
+/* تخصيص الشعار */
+.App-logo {
+  height: 50vmin;
+  pointer-events: none;
+  margin-bottom: 20px;
+}
+
+/* إضافة تأثير دوران للشعار */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+/* رأس الصفحة */
+.App-header {
+  background-color: #1e3a8a; /* لون أزرق غامق */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: white;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+/* الروابط */
+.App-link {
+  color: #ffcc00; /* لون أصفر مميز */
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.App-link:hover {
+  color: #ff8800;
+}
+
+/* زر عام */
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+  margin: 10px; /* تباعد بين الأزرار */
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* أنماط الأزرار */
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-danger {
+  background-color: #dc2626;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #b91c1c;
+}
+
+/* تنسيق خاص للكومبوننتات */
+.component {
+  background: white;
+  padding: 20px;
+  margin: 20px 0; /* تباعد بين الكومبوننتات */
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* إضافة تأثيرات جميلة */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
